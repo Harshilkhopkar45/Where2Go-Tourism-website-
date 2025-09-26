@@ -8,7 +8,7 @@ The project uses **Streamlit for the app framework**, **HTML + CSS for styling**
 ---
 
 ## ✨ Features
-- 📍 City selection interface covering 16+ popular Indian cities.  
+- 📍 City selection interface covering 15+ popular Indian cities.  
 - 🏛️ One-line highlights of top tourist attractions.  
 - 🍲 Recommendations of famous local foods to try.  
 - 🚖 Information on the best ways to travel within each city.  

@@ -229,7 +229,7 @@ def load_footer():
             type="primary"
             
         ):
-            st.switch_page("main.py")
+            st.switch_page("where2go.py")
     
     with col2:
         if st.button(
@@ -259,6 +259,7 @@ def load_footer():
             st.switch_page("pages/contact.py")
             
 load_footer()
+
 
 
 

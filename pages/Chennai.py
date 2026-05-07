@@ -127,8 +127,6 @@ with col2:
     if st.button("Get Redeem Code for Chennai Hotels", key="redeem_code_chennai_btn", type="primary", use_container_width=True):
         code = generate_redeem_code()
         st.success(f"Congratulations! Use this code '{code}' for exclusive discounts on Chennai hotels.")
-        tripadvisor_url = "https://www.tripadvisor.in/Hotels-g304556-Chennai_Madras_Chennai_District_Tamil_Nadu-Hotels.html"
-        st.markdown(f"[Book Chennai hotels here](<{tripadvisor_url}>)")
-
+       
 
 load_footer()

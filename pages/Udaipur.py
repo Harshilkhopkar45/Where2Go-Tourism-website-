@@ -132,7 +132,6 @@ with col2:
     if st.button("Get Redeem Code for Udaipur Hotels", key="redeem_code_udaipur_btn", type="primary", use_container_width=True):
         code = generate_redeem_code()
         st.success(f"Congratulations! Use this redeem code '{code}' for exclusive discounts on Udaipur hotels.")
-        tripadvisor_url = "https://www.tripadvisor.in/Hotels-g297672-Udaipur_Udaipur_District_Rajasthan-Hotels.html"
-        st.markdown(f"[Book Udaipur hotels here](<{tripadvisor_url}>)")
+      
 
 load_footer()

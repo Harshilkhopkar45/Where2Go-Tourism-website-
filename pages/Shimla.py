@@ -129,8 +129,7 @@ with col2:
     if st.button("Get Redeem Code for Shimla Hotels", key="redeem_code_shimla_btn", type="primary", use_container_width=True):
         code = generate_redeem_code()
         st.success(f"Congratulations! Use this redeem code '{code}' to get exclusive discount on hotel bookings.")
-        tripadvisor_url = "https://www.tripadvisor.in/Hotels-g304552-Shimla_Shimla_District_Himachal_Pradesh-Hotels.html"
-        st.markdown(f"[Click here to book Shimla hotels on Tripadvisor with your redeem code](<{tripadvisor_url}>)")
+        
 
 
 load_footer()

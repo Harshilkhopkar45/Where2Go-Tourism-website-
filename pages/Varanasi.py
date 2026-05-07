@@ -110,8 +110,7 @@ with col2:
     if st.button("Get Redeem Code for Varanasi Hotels", key="redeem_code_varanasi_btn", type="primary", use_container_width=True):
         code = generate_redeem_code()
         st.success(f"Congratulations! Use this code '{code}' for exclusive discounts on Varanasi hotels.")
-        tripadvisor_url = "https://www.tripadvisor.in/Hotels-g297685-Varanasi_Varanasi_District_Uttar_Pradesh-Hotels.html"
-        st.markdown(f"[Book Varanasi hotels here on Tripadvisor](<{tripadvisor_url}>)")
+        
 
 
 load_footer()

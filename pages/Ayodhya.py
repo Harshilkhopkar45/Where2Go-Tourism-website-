@@ -134,8 +134,7 @@ with col2:
     if st.button("Get Redeem Code for Ayodhya Hotels", key="redeem_code_ayodhya_btn", type="primary", use_container_width=True):
         code = generate_redeem_code()
         st.success(f"Congratulations! Use this redeem code '{code}' to get an exclusive discount on your hotel booking.")
-        tripadvisor_url = "https://www.tripadvisor.in/Hotels-g1985445-Ayodhya_Ayodhya_District_Uttar_Pradesh-Hotels.html"
-        st.markdown(f"[Click here to book hotels on Tripadvisor and apply your redeem code](<{tripadvisor_url}>)")
+       
 
 
 load_footer()

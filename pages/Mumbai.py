@@ -123,8 +123,7 @@ with col2:
     if st.button("Get Redeem Code for Mumbai Hotels", key="redeem_code_mumbai_btn", type="primary", use_container_width=True):
         code = generate_redeem_code()
         st.success(f"Congratulations! Use this redeem code '{code}' to get an exclusive discount on your hotel booking.")
-        tripadvisor_url = "https://www.tripadvisor.in/Hotels-g304554-Mumbai_Maharashtra-Hotels.html"
-        st.markdown(f"[Click here to book hotels on Tripadvisor and apply your redeem code](<{tripadvisor_url}>)")
+
 
 
 load_footer()
